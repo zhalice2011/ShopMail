@@ -1,0 +1,143 @@
+<template>
+  <div id="app">
+    <!-- <img src="../static/img/banner_index.jpg">
+    <img src="./assets/logo.png"> -->
+    <router-view/>
+    
+  </div>
+</template>
+
+<script>
+import "style.css"
+
+export default {
+  name: 'app',
+  mounted(){
+      window.onload = window.onresize = function(){
+          document.documentElement.style.fontSize = document.documentElement.clientWidth * 20/320+'px';
+      };
+  },
+  methods:{
+      router:function(a){
+          this.$router.push({path:a})
+      }
+  }
+}
+</script>
+
+<style>
+
+@charset "utf-8";
+/*清除默认样式*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,
+img {
+    border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+ol,
+ul {
+    list-style: none;
+}
+caption {
+    text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before,
+q:after {
+    content: '';
+}
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%;
+}
+legend {
+    color: #000;
+}
+#yui3-css-stamp.cssreset {
+    display: none;
+}
+b {
+    font-weight: normal;
+}
+i {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
+body {
+    background: #f0eff4;
+    font-family: "微软雅黑";
+    color: #4d4d4d;
+}
+
+
+
+</style>

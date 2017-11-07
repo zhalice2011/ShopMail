@@ -1,0 +1,136 @@
+.maBody {
+  width: 100%;
+  height: 26.68rem;
+}
+.maHeader {
+  width: 100%;
+  height: 1.76rem;
+  background-color: #ffffff;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+.maHeader_back {
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.maHeader_te {
+  text-align: center;
+  font-size: 0.64rem;
+  line-height: 1.76rem;
+  font-weight: 600;
+}
+.maHeader_add {
+  position: absolute;
+  right: 0.4rem;
+  top: 0;
+  line-height: 1.76rem;
+  font-size: 0.6rem;
+  color: #ff6c00;
+}
+.maHeader_adds {
+  position: absolute;
+  right: 0.4rem;
+  top: 0;
+  line-height: 1.76rem;
+  font-size: 0.6rem;
+}
+.maBox {
+  width: 100%;
+  height: 3.76rem;
+  background-color: #ffffff;
+}
+.maBox_top {
+  width: 100%;
+  height: 1.78rem;
+  border-bottom: 0.02rem #cccccc solid;
+  padding-top: 0.2rem;
+}
+.maBox_name {
+  font-size: 0.52rem;
+  line-height: 0.8rem;
+  margin-left: 0.4rem;
+}
+.maBox_name span {
+  margin-left: 0.4rem;
+}
+.maBox_boinp {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0.4rem 0 0 0.4rem;
+  border-radius: 50%;
+  float: left;
+}
+.maBox_boSpan {
+  font-size: 0.48rem;
+  line-height: 1.6rem;
+  margin-left: 0.4rem;
+  float: left;
+}
+.maBox_boDel {
+  float: right;
+  margin: 0.24rem;
+  padding-left: 0.6rem;
+  background: url("../img/edit.png") no-repeat left;
+  font-size: 0.48rem;
+  line-height: 1.6rem;
+}
+.maBox_boEdi {
+  float: right;
+  margin: 0.24rem;
+  padding-left: 0.6rem;
+  background: url("../img/delete.png") no-repeat left;
+  font-size: 0.48rem;
+  line-height: 1.6rem;
+}
+.maHeaders {
+  width: 100%;
+  height: 1.76rem;
+  background-color: #ffffff;
+  position: relative;
+  border-bottom: 0.04rem #eeeeee solid;
+}
+.mashouhuo {
+  width: 100%;
+  height: 1.7rem;
+  border-bottom: 0.04rem #eeeeee solid;
+  background-color: #ffffff;
+}
+.mashouhuo p {
+  font-size: 0.6rem;
+  float: left;
+  line-height: 1.7rem;
+  margin: 0 0.4rem;
+}
+.mashouhuo input {
+  width: 10rem;
+  border: none;
+  float: left;
+  height: 1.7rem;
+  margin-left: 0.4rem;
+}
+.mashouhuoLast {
+  border: none;
+  margin-bottom: 0.4rem;
+}
+.mamoren {
+  width: 100%;
+  height: 1.7rem;
+  background-color: #ffffff;
+}
+.mamoren p {
+  font-size: 0.6rem;
+  float: left;
+  line-height: 1.7rem;
+  margin-left: 0.4rem;
+}
+.mamoren input {
+  float: right;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0.4rem 0.4rem 0 0;
+}

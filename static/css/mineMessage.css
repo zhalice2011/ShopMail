@@ -1,0 +1,60 @@
+.msBody {
+  width: 100%;
+  height: 26.68rem;
+}
+.mmHeater {
+  height: 1.76rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.mmCart {
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.mmTitle {
+  text-align: center;
+  font-size: 0.6rem;
+  line-height: 1.76rem;
+  font-weight: 600;
+}
+.msBox {
+  width: 100%;
+  height: 2.56rem;
+  background-color: #ffffff;
+  margin-top: 0.4rem;
+}
+.msBox_img {
+  font-size: 0.6rem;
+  line-height: 2.56rem;
+  margin: 0 0.8rem 0 0.4rem;
+  float: left;
+}
+.msBox_imgs {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 1rem;
+  margin-top: 0.08rem;
+}
+.msBox_input {
+  float: left;
+  width: 9rem;
+  height: 1.36rem;
+  margin-top: 0.6rem;
+  border: none;
+}
+.msSubmit {
+  margin: 0.8rem 1.1rem;
+  text-align: center;
+  width: 12.8rem;
+  height: 1.76rem;
+  background-color: #ff6c00;
+  border: none;
+  color: #ffffff;
+  border-radius: 0.88rem;
+  font-size: 0.8rem;
+}

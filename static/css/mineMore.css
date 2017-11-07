@@ -1,0 +1,58 @@
+.meBody {
+  width: 100%;
+  height: 26.68rem;
+}
+.meHeader {
+  width: 100%;
+  height: 1.76rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.meHeader_back {
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.meHeader_p {
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 1.76rem;
+  font-weight: 600;
+}
+.mrBox {
+  width: 15rem;
+  height: 1.6rem;
+  background-color: #ffffff;
+  margin-top: 0.4rem;
+  display: block;
+}
+.mrBox_p {
+  font-size: 0.6rem;
+  line-height: 1.6rem;
+  margin: 0 0.4rem;
+}
+.mrBox_p span {
+  float: right;
+  font-family: cursive;
+  font-size: 0.8rem;
+}
+.mrBox_p i {
+  float: right;
+  font-size: 0.52rem;
+  margin: 0 0.24rem;
+}
+.mrBox_btn {
+  width: 12.8rem;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  background-color: #ff6c00;
+  border: none;
+  font-size: 0.68rem;
+  color: #ffffff;
+  margin: 2rem 1.1rem;
+  border-radius: 0.88rem;
+}

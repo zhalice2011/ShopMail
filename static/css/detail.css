@@ -1,0 +1,359 @@
+.dBody {
+  width: 100%;
+  height: 26.68rem;
+}
+.dHeader {
+  width: 100%;
+  height: 1.76rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 399;
+}
+.dHeader .dHeader_back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: 0.3rem;
+}
+.dHeader .dHeader_back img {
+  width: 1rem;
+  height: 1rem;
+}
+.dHeader .dHeader_car {
+  position: absolute;
+  right: 3rem;
+  top: 0.3rem;
+}
+.dHeader .dHeader_car img {
+  width: 1rem;
+  height: 1rem;
+}
+.dHeader .dHeader_share {
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+}
+.dHeader .dHeader_share img {
+  width: 1rem;
+  height: 1rem;
+}
+.dContent {
+  width: 100%;
+  height: 22.96rem;
+  padding: 0 0 1.96rem;
+}
+.dContent .dWidth {
+  width: 15rem;
+  height: 12.8rem;
+}
+.dTitle {
+  width: 100%;
+  margin-bottom: 1.96rem;
+  background-color: #f7f7f7;
+}
+.dTitle_li {
+  font-size: 0.6rem;
+  padding: 0 0.24rem;
+  color: #000000;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+.dTitle_money {
+  font-size: 0.6rem;
+  color: #ff5e5e;
+  padding-left: 0.24rem;
+  background-color: #ffffff;
+}
+.dTitle_yu {
+  color: #ff850e;
+  font-size: 0.48rem;
+  padding-left: 0.3rem;
+  background-color: #ffffff;
+}
+.dTitle_yu img {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.12rem;
+}
+.dTitle_yun {
+  padding: 0 0.24rem;
+  font-size: 0.48rem;
+  background-color: #ffffff;
+}
+.dTitle_yun span {
+  float: right;
+}
+.dTitle_number {
+  font-size: 0.44rem;
+  padding: 0 0.24rem;
+  height: 1.32rem;
+  line-height: 1.32rem;
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+}
+.dTitle_dian {
+  height: 2.56rem;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 0.3rem;
+  display: inline-block;
+}
+.dTitle_customer {
+  width: 1.76rem;
+  height: 1.76rem;
+  border-radius: 50%;
+  margin: 0.4rem 0 0 0.44rem;
+  float: left;
+}
+.dTitle_box {
+  float: left;
+  margin: 0.4rem 0.6rem;
+}
+.dTitle_dianName {
+  line-height: 1rem;
+  font-size: 0.44rem;
+  font-weight: 600;
+}
+.dTitle_dianNumber {
+  font-size: 0.44rem;
+  line-height: 1rem;
+}
+.dTitle_dianNumber span {
+  color: #ff9024;
+}
+.dTitle_enter {
+  width: 2.88rem;
+  height: 0.88rem;
+  background-color: #ff7f03;
+  border-radius: 0.44rem;
+  font-size: 0.48rem;
+  line-height: 0.88rem;
+  color: #ffffff;
+  float: right;
+  margin-right: 0.6rem;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+.dTitle_detail {
+  width: 100%;
+  height: 1.32rem;
+  background-color: #ffffff;
+  margin-top: 0.24rem;
+}
+.dTitle_detail .dTitle_detailPic {
+  font-size: 0.48rem;
+  font-weight: 600;
+  line-height: 1.32rem;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+.dTitle_detail .dTitle_detailPicAcc {
+  color: #ff7f03;
+  border-bottom: 0.1rem #ff7f03 solid;
+  line-height: 1.2rem;
+  display: inline-block;
+}
+.dFooter {
+  width: 100%;
+  height: 1.96rem;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.dFooter .dFooter_ke,
+.dFooter .dFooter_shou {
+  width: 3rem;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+.dFooter .dFooter_ke img,
+.dFooter .dFooter_shou img {
+  width: 0.86rem;
+  height: 0.86rem;
+  margin-top: 0.1rem;
+}
+.dFooter .dFooter_ke p,
+.dFooter .dFooter_shou p {
+  line-height: 0.48rem;
+  font-size: 0.48rem;
+}
+.dFooter .dFooter_ke:after {
+  content: "";
+  width: 0.04rem;
+  height: 1.6rem;
+  position: absolute;
+  right: 0;
+  top: 0.16rem;
+  background-color: #a0a0a0;
+}
+.dFooter .dFooter_car,
+.dFooter .dFooter_buy {
+  width: 4.48rem;
+  text-align: center;
+  display: inline-block;
+  background-color: #ff7f03;
+  height: 1.96rem;
+  float: left;
+}
+.dFooter .dFooter_car span,
+.dFooter .dFooter_buy span {
+  font-size: 0.4rem;
+  color: #ffffff;
+  line-height: 1.96rem;
+}
+.dFooter .dFooter_buy {
+  background-color: #fe5062;
+}
+.dModel_success {
+  width: 100%;
+  height: 26.68rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 499;
+  background: transparent;
+  display: none;
+}
+.dModel_success .dModel_sucBox {
+  padding: 1rem;
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0.6rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 599;
+  text-align: center;
+}
+.dModel_success .dModel_sucBox .dModel_sucGou {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #f15a24;
+  font-weight: 800;
+}
+.dModel_success .dModel_sucBox .dModel_sucGo {
+  font-size: 0.6rem;
+  color: #ffffff;
+  line-height: 1.6rem;
+}
+.dModel_car {
+  display: none;
+  width: 100%;
+  height: 24.7rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 499;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 0.02rem #cccccc solid;
+}
+.dModel_car .dModel_carBox {
+  width: 14rem;
+  padding: 0 0.5rem;
+  height: 14.4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+}
+.dModel_car .dModel_carBox .dModel_carOne {
+  width: 100%;
+  height: 4.6rem;
+  border-bottom: 0.04rem #cccccc solid;
+  position: relative;
+}
+.dModel_car .dModel_carBox .dModel_carOne .dModel_carMol {
+  width: 4.76rem;
+  height: 4.76rem;
+  border-radius: 0.4rem;
+  border: 0.02rem #ffffff solid;
+  position: absolute;
+  left: 0.24rem;
+  top: -1.2rem;
+}
+.dModel_car .dModel_carBox .dModel_carOne .dModel_test {
+  padding-left: 5.6rem;
+}
+.dModel_car .dModel_carBox .dModel_carOne .dModel_test .dModel_tMoney {
+  font-size: 0.48rem;
+  color: #ff5e5e;
+  margin-top: 0.6rem;
+}
+.dModel_car .dModel_carBox .dModel_carOne .dModel_test .dModel_tYu {
+  font-size: 0.4rem;
+  color: #ff850e;
+  line-height: 1rem;
+}
+.dModel_car .dModel_carBox .dModel_carOne .dModel_test .dModel_tYu img {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.24rem;
+}
+.dModel_car .dModel_carBox .dModel_carOne .dModel_test .dModel_tChoose {
+  font-size: 0.48rem;
+  margin-top: 0.3rem;
+}
+.dModel_carTwo {
+  width: 100%;
+  height: 3.2rem;
+  border-bottom: 0.04rem #cccccc solid;
+}
+.dModel_carChi {
+  font-size: 0.48rem;
+  font-weight: 600;
+}
+.dModel_carUl {
+  text-align: center;
+}
+.dModel_carLi {
+  height: 1.2rem;
+  background-color: #f3f3f3;
+  font-size: 0.48rem;
+  border-radius: 0.4rem;
+  float: left;
+  margin: 0.5rem 0.24rem;
+  line-height: 1.2rem;
+  padding: 0 0.4rem;
+}
+.dModel_carLiAcc {
+  background-color: #ff850e;
+  color: #ffffff;
+}
+.dModel_carFour {
+  width: 100%;
+  height: 2.9rem;
+}
+.dModel_carFourNumber {
+  font-size: 0.48rem;
+  font-weight: 600;
+  line-height: 2rem;
+  float: left;
+}
+.dModel_carRight {
+  float: right;
+  margin-top: 0.4rem;
+}
+.dModel_carJian {
+  width: 1.04rem;
+  height: 1.04rem;
+  border: 0.02rem #666666 solid;
+  border-radius: 0.1rem;
+  font-size: 0.6rem;
+}
+.dModel_carBtn {
+  width: 1.64rem;
+  height: 1.04rem;
+  border: 0.02rem #666666 solid;
+  border-radius: 0.1rem;
+  font-size: 0.6rem;
+}

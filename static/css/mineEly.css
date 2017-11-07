@@ -1,0 +1,124 @@
+.meBody {
+  width: 100%;
+  height: 26.68rem;
+}
+.meHeader {
+  width: 100%;
+  height: 1.76rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.meHeader_back {
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+.meHeader_p {
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 1.76rem;
+  font-weight: 600;
+}
+.meHeader_go {
+  position: absolute;
+  right: 0.4rem;
+  top: 0;
+  line-height: 1.76rem;
+  font-size: 0.52rem;
+}
+.meBox {
+  width: 100%;
+  height: 2.88rem;
+  margin-top: 0.4rem;
+  background: -moz-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fea843), color-stop(100%, #ff6c00));
+  background: -webkit-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: -o-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: -ms-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: linear-gradient(to bottom, #fea843 0%, #ff6c00 100%);
+  color: #ffffff;
+}
+.meBox_p {
+  font-size: 0.6rem;
+  line-height: 2.88rem;
+  padding-left: 1rem;
+}
+.meBox_p span {
+  float: left;
+  padding: 0 0.3rem;
+}
+.meBox_p img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  float: left;
+  margin: 0.44rem;
+}
+.meBoxBig {
+  width: 100%;
+  height: 3.76rem;
+  margin-top: 0.4rem;
+  background: -moz-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fea843), color-stop(100%, #ff6c00));
+  background: -webkit-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: -o-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: -ms-linear-gradient(top, #fea843 0%, #ff6c00 100%);
+  background: linear-gradient(to bottom, #fea843 0%, #ff6c00 100%);
+  text-align: center;
+}
+.meBoxBig_left {
+  width: 7.5rem;
+  float: left;
+  position: relative;
+}
+.meBoxBig_left:after {
+  content: '';
+  width: 0.04rem;
+  height: 2.96rem;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+.meBoxBig_number {
+  font-size: 0.6rem;
+  color: #ffffff;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+.meSearch {
+  width: 9.6rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background-color: #cccccc;
+  font-size: 0.44rem;
+  text-align: center;
+  border: none;
+  margin: 0.4rem 2.7rem;
+}
+.meSearch_bigBox {
+  width: 14rem;
+  height: 2.6rem;
+  background-color: #ffffff;
+  border-bottom: 0.02rem #eeeeee solid;
+  padding: 0 0.5rem;
+}
+.meSearch_bigBox_img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 1rem;
+  float: left;
+  margin: 0.1rem 0.24rem;
+}
+.meSearch_bigBox_box {
+  float: left;
+  margin-left: 0.4rem;
+}
+.meSearch_bigBox_box p {
+  line-height: 1.2rem;
+  font-size: 0.6rem;
+}

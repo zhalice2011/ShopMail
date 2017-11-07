@@ -1,0 +1,193 @@
+@w:50rem;
+.dBody{
+  width: 100%;height: 1334/@w;
+}
+//头部
+.dHeader{
+  width: 100%;height: 88/@w;background-color: rgba(0,0,0,0.3);position: fixed;left: 0;top: 0;z-index: 399;
+  .dHeader_back{
+    position: absolute;left: 0;top: 0;text-align: center;margin:15/@w;
+    img{
+      width: 50/@w;height: 50/@w;
+    }
+  }
+  .dHeader_car{
+    position: absolute;right: 150/@w; top: 15/@w;
+    img{
+      width: 50/@w;height: 50/@w;
+    }
+  }
+  .dHeader_share{
+    position: absolute;right: 50/@w; top: 15/@w;
+    img{
+      width: 50/@w;height: 50/@w;
+    }
+  }
+
+}
+//产品
+.dContent{
+  width:100%;height: 1148/@w;padding: 0 0 98/@w;
+  .dWidth{
+    width: 750/@w;height: 640/@w;
+  }
+}
+.dTitle{
+  width:100%;margin-bottom: 98/@w;background-color: #f7f7f7;
+}
+.dTitle_li{font-size: 30/@w;padding: 0 12/@w;color: #000000;font-weight: 600;background-color: #ffffff;}
+.dTitle_money{font-size: 30/@w;color: #ff5e5e;padding-left: 12/@w;background-color: #ffffff;}
+.dTitle_yu{color: #ff850e;font-size: 24/@w;padding-left: 15/@w;background-color: #ffffff;
+  img{
+    width: 20/@w;height: 20/@w;margin-right: 6/@w;
+  }
+}
+.dTitle_yun{padding:0 12/@w;font-size: 24/@w;background-color: #ffffff;
+  span{
+    float: right;
+  }
+}
+.dTitle_number{
+  font-size: 22/@w;padding: 0 12/@w;height: 66/@w;line-height: 66/@w;margin-top:15/@w;background-color: #ffffff;
+}
+.dTitle_dian{
+  height: 128/@w;width: 100%;background-color: #ffffff;margin-top: 15/@w;display: inline-block;
+}
+.dTitle_customer{
+  width:88/@w;height: 88/@w;border-radius: 50%;margin:20/@w 0 0 22/@w;float: left;
+}
+.dTitle_box{
+  float: left; margin: 20/@w 30/@w;
+}
+.dTitle_dianName{
+  line-height: 50/@w;font-size: 22/@w;font-weight: 600;
+}
+.dTitle_dianNumber{
+  font-size: 22/@w;line-height: 50/@w;
+  span{
+    color: #ff9024;
+  }
+}
+.dTitle_enter{
+  width: 144/@w;height: 44/@w;background-color: #ff7f03;border-radius: 22/@w;font-size: 24/@w;line-height: 44/@w;color: #ffffff;float: right;margin-right: 30/@w;text-align: center;margin-top: 45/@w;
+}
+//图文详情
+.dTitle_detail{
+  width: 100%;height: 66/@w;background-color: #ffffff;margin-top: 12/@w;
+  .dTitle_detailPic{
+    font-size: 24/@w;font-weight: 600;line-height: 66/@w;width: 50%;display: inline-block;float: left;text-align: center;
+  }
+  .dTitle_detailPicAcc{
+    color: #ff7f03;border-bottom: 5/@w #ff7f03 solid;line-height: 60/@w;display: inline-block;
+  }
+
+}
+//底部
+.dFooter{
+  width: 100%;height: 98/@w;background-color: #ffffff;position: fixed;left: 0;bottom: 0;
+  .dFooter_ke,.dFooter_shou{
+    width: 150/@w;text-align: center;display: inline-block;position: relative;float: left;
+    img{
+      width: 43/@w;height: 43/@w;margin-top: 5/@w;
+    }
+    p{
+      line-height: 24/@w;font-size: 24/@w;
+    }
+  }
+  .dFooter_ke:after{ content: "";width: 2/@w;height: 80/@w;position: absolute;right: 0;top:8/@w;background-color: #a0a0a0;  }
+  .dFooter_car,.dFooter_buy{
+    width: 224/@w;text-align: center;display: inline-block;background-color: #ff7f03;height: 98/@w;float: left;
+    span{
+      font-size: 20/@w;color: #ffffff;line-height: 98/@w;
+    }
+  }
+  .dFooter_buy{
+    background-color: #fe5062;
+  }
+}
+//添加购物车成功的窗口
+.dModel_success{
+  width: 100%;height: 1334/@w;position: fixed; top:0; left: 0; z-index: 499; background:transparent;display: none;
+  .dModel_sucBox{padding: 50/@w;width: 400/@w;height: 200/@w;border-radius: 30/@w;background-color:rgba(0,0,0,0.8);position: absolute;top:50%;  left: 50%;  transform: translate(-50%,-50%); z-index: 599; text-align: center;
+    .dModel_sucGou{
+      font-size: 80/@w;text-align: center;color: #f15a24;font-weight: 800;
+    }
+    .dModel_sucGo{
+      font-size: 30/@w;color: #ffffff;line-height: 80/@w;
+    }
+  }
+}
+//加入购物车弹框
+.dModel_car{display: none;
+  width: 100%;height: 1235/@w;position: fixed; top:0; left: 0; z-index: 499; background-color:rgba(0,0,0,0.4);border-bottom: 1/@w #cccccc solid;
+  .dModel_carBox{
+    width: 700/@w;padding: 0 25/@w;height: 720/@w;position: absolute;left:0;bottom: 0;background-color: #ffffff;
+    .dModel_carOne{
+      width: 100%;height: 230/@w;border-bottom: 2/@w #cccccc solid;position: relative;
+      .dModel_carMol{
+        width: 238/@w;height: 238/@w;border-radius: 20/@w;border:1/@w #ffffff solid;position: absolute;left: 12/@w;top:-60/@w;
+      }
+      .dModel_test{
+        padding-left: 280/@w;
+        .dModel_tMoney{
+          font-size: 24/@w;color: #ff5e5e;margin-top: 30/@w;
+        }
+        .dModel_tYu{
+          font-size: 20/@w;color: #ff850e;line-height: 50/@w;
+          img{
+            width:20/@w;height: 20/@w;margin-right: 12/@w;
+          }
+        }
+        .dModel_tChoose{
+          font-size: 24/@w;margin-top: 15/@w;
+        }
+
+      }
+
+
+    }
+  }
+}
+.dModel_carTwo{
+  width: 100%;height: 160/@w;border-bottom: 2/@w #cccccc solid;
+}
+.dModel_carChi{
+  font-size: 24/@w;font-weight: 600;
+}
+.dModel_carUl{
+  text-align: center;
+}
+.dModel_carLi{
+  height: 60/@w;background-color: #f3f3f3;font-size: 24/@w;border-radius: 20/@w;float: left;margin:25/@w 12/@w;line-height: 60/@w;padding: 0 20/@w;
+}
+.dModel_carLiAcc{
+  background-color: #ff850e;color: #ffffff;
+}
+.dModel_carFour{
+  width: 100%;height: 145/@w;
+}
+.dModel_carFourNumber{
+  font-size: 24/@w;font-weight: 600;line-height: 100/@w;float: left;
+}
+.dModel_carRight{
+  float: right;margin-top: 20/@w;
+}
+.dModel_carJian{
+  width: 52/@w;height: 52/@w;border:1/@w #666666 solid;border-radius: 5/@w;font-size: 30/@w;
+}
+.dModel_carBtn{
+  width: 82/@w;height: 52/@w;border:1/@w #666666 solid;border-radius: 5/@w;font-size: 30/@w;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+.maBody {
+  width: 100%;
+  height: 26.68rem;
+}
+.maHeader {
+  width: 100%;
+  height: 1.76rem;
+  background-color: #ff6c00;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+.maHeader_back {
+  position: absolute;
+  left: 0.4rem;
+  top: 0.2rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-family: cursive;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.maHeader_te {
+  text-align: center;
+  font-size: 0.64rem;
+  line-height: 1.76rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.pmBox {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #ffffff;
+}
+.pmBox_p {
+  font-size: 0.6rem;
+  margin-left: 4rem;
+  line-height: 1rem;
+}
+.pmBox_sp {
+  font-size: 0.48rem;
+  margin-left: 4rem;
+  color: #666666;
+}
+.pmBox_box {
+  width: 7.6rem;
+  height: 2.2rem;
+  background-color: #ff6c00;
+  margin: 0.8rem auto;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0.4rem;
+  padding-top: 0.2rem;
+}
+.pmBox_box p {
+  font-size: 0.6rem;
+  line-height: 1rem;
+}
+.pmBox_boxP {
+  font-size: 0.48rem;
+  line-height: 0.8rem;
+  text-align: center;
+}
+.pmBottom {
+  position: fixed;
+  width: 100%;
+  height: 1.96rem;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+}
+.pmBottom .pmBottom_p {
+  display: inline-block;
+  float: left;
+  width: 7rem;
+  height: 1.96rem;
+  line-height: 1.96rem;
+  font-size: 0.6rem;
+  padding-left: 3rem;
+}
+.pmBottom .pmBottom_p span {
+  color: #ff6c00;
+}
+.pmBottom .pmBottom_btn {
+  display: inline-block;
+  width: 5rem;
+  height: 1.96rem;
+  text-align: center;
+  font-size: 0.72rem;
+  line-height: 1.96rem;
+  color: #ffffff;
+  float: left;
+  border: none;
+  background-color: #ff6c00 ;
+}
